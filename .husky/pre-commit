@@ -1,0 +1,8 @@
+#!/usr/bin/env sh
+. "$(dirname -- "$0")/_/husky.sh"
+
+echo "Running Pretty Quick"
+npm run pretty-quick
+
+echo "Running eslint"
+npm run lint
